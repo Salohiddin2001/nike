@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    align-items: center;
+}
+header{
+    background: url(./img/Nike_cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1520px;
+    margin: auto;
+}
+.title ul{
+    display: flex;
+    margin-left: 30px;
+}
+.title ul li{
+    list-style: none;
+    padding: 20px 20px;
+    transition: 1.5s;
+}
+.title ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    transition: 1s;
+}
+.title ul li a:hover{
+   color:  #fff;
+}
+.title ul li:hover{
+background-color:grey;   
+}
+.title_bottom{
+    width: 1050px;
+    margin: auto;
+}
+.title_bottom h1{
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+    padding-top: 180px;  
+}
+.title_bottom .text{
+    font-size: 18px;
+    color: rgb(255, 255, 255) ;
+    padding-bottom: 290px;
+}
+.title_bottom .text span{
+   color: red; 
+   font-weight: 900;
+}
+.bold{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 130px;
+    width: 1520px;
+    margin: auto;
+}
+.left{
+    width: 540px;
+    height: 690px;
+}
+.left .nioline{
+    padding: 0;
+    font-size: 20px;
+}
+.left .text{
+    color: #919191;
+    letter-spacing: 2px;
+}
+.bold .left p{
+padding-top: 20px;
+}
+.right{
+    width: 500px;
+}
+
+.img_box img{
+    padding: 5px 20px;
+}
+
+.box{
+    border: 4px solid #aeaeae;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.box:hover{
+    border: 4px solid #f0efb6;
+}
+
+
+
+.box .info{
+    width: 340px;
+    font-size: 16px;
+    color: #4d4d4d;
+}
+.box h1{
+    padding: 0;
+    padding-bottom: 18px;
+    font-size: 20px;
+    color: black;
+}
+.box p{
+    color: #b2b2b2;
+}
+
+ .bottom{
+    background: url(./img/Прямоугольник\ 9.png);
+    width: 1520px;
+    margin: auto;
+}
+.bottom ul{
+    display: flex;
+    margin-left: 30px;
+    margin-left: 430px;
+}
+.bottom ul li{
+    padding: 20px;
+    list-style: none;
+    transition: 1.5s;
+    margin-bottom: 100px;
+   
+}
+.bottom ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#4d4d4d;
+    font-weight: 700;
+    transition: 1s;
+   
+}
+.bottom ul li a:hover{
+   color:  rgb(255, 0, 0);
+}
+.bottom .tekst{
+    color: #4d4d4d;
+    padding-bottom: 30px;
+    padding-left: 550px;
+}
+.bottom img{
+    padding-left: 230px;
+    position: relative;
+    top: 80px;
+}
+
